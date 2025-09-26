@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+table{
+	width:100%;
+	border-radius:10px;
+	overflow:hidden
+}
+
+table,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+	text-align:left;
+}
+td{
+	text-align:right;
+	background:whitesmoke;
+}
+th{
+	background:gray;
+}
